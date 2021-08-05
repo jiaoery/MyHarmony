@@ -7,6 +7,10 @@
     {
       "name": "color_black",
       "value": "#000000"
+    },
+    {
+      "name": "color_white",
+      "value": "#ffffff"
     }
   ]
 }
