@@ -33,6 +33,7 @@ public class MainAbilitySlice extends AbilitySlice {
         ArrayList<MainItem> list = new ArrayList<>();
         list.add(new MainItem("文本Text",new TextAbilitySlice()));
         list.add(new MainItem("按钮Button",new ButtonAbilitySlice()));
+        list.add(new MainItem("输入框InputField",new TextInputAbilitySlice()));
         return list;
     }
 
