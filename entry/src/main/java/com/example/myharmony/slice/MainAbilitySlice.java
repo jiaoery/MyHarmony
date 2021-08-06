@@ -6,6 +6,7 @@ import com.example.myharmony.provider.MainProvider;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 import ohos.agp.components.ListContainer;
+import ohos.org.w3c.dom.ls.LSInput;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +32,7 @@ public class MainAbilitySlice extends AbilitySlice {
     private ArrayList<MainItem> getData() {
         ArrayList<MainItem> list = new ArrayList<>();
         list.add(new MainItem("文本Text",new TextAbilitySlice()));
+        list.add(new MainItem("按钮Button",new ButtonAbilitySlice()));
         return list;
     }
 
