@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="vertical">
+        <Image
+            ohos:id="$+id:imageComponent"
+            ohos:height="200vp"
+            ohos:width="200vp"
+            ohos:image_src="$media:dog"
+            />
+        <Image
+            ohos:id="$+id:image1"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:layout_alignment="center"
+            ohos:image_src="$media:dog"
+            ohos:alpha="0.5"/>
+
+        <Image
+            ohos:id="$+id:image2"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:layout_alignment="center"
+            ohos:image_src="$media:dog"
+            ohos:scale_x="0.5"
+            ohos:scale_y="0.5"/>
+
+        <Image
+            ohos:id="$+id:image3"
+            ohos:width="200vp"
+            ohos:height="200vp"
+            ohos:layout_alignment="center"
+            ohos:image_src="$media:dog"
+            ohos:scale_mode="zoom_center"/>
+
+    </DirectionalLayout>
+
+</ScrollView>

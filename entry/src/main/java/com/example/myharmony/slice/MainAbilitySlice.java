@@ -34,6 +34,7 @@ public class MainAbilitySlice extends AbilitySlice {
         list.add(new MainItem("文本Text",new TextAbilitySlice()));
         list.add(new MainItem("按钮Button",new ButtonAbilitySlice()));
         list.add(new MainItem("输入框InputField",new TextInputAbilitySlice()));
+        list.add(new MainItem("图像Image",new ImageAbilitySlice()));
         return list;
     }
 
