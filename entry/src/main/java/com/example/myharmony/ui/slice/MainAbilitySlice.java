@@ -44,6 +44,7 @@ public class MainAbilitySlice extends AbilitySlice {
         list.add(new MainItem("CheckBox 多选",new CheckBokAbilitySlice()));
         list.add(new MainItem("Progressbar 进度条",new ProgressBarAbilitySlice()));
         list.add(new MainItem("RoundProgressBar 环形进度条",new RoundProgressBarAbilitySlice()));
+        list.add(new MainItem("ToastDialog 弹窗",new ToastDialogAbilitySlice()));
         return list;
     }
 

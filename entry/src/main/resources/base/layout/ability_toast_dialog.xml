@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btn_normal"
+        ohos:height="60vp"
+        ohos:width="150vp"
+        ohos:margin="20vp"
+        ohos:text="normal toast"
+        ohos:text_color="$color:color_white"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:background_button"/>
+
+    <Button
+        ohos:id="$+id:btn_position"
+        ohos:height="60vp"
+        ohos:width="150vp"
+        ohos:margin="20vp"
+        ohos:text="Position"
+        ohos:text_color="$color:color_white"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:background_button"/>
+
+    <Button
+        ohos:id="$+id:btn_custom"
+        ohos:height="60vp"
+        ohos:width="150vp"
+        ohos:margin="20vp"
+        ohos:text="Custom"
+        ohos:text_color="$color:color_white"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:background_button"/>
+
+    <Button
+        ohos:id="$+id:btn_add_image"
+        ohos:height="60vp"
+        ohos:width="150vp"
+        ohos:margin="20vp"
+        ohos:text="Add Image"
+        ohos:text_color="$color:color_white"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:background_button"/>
+
+
+</DirectionalLayout>
