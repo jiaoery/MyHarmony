@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:id="$+id:scrollview"
+        ohos:height="300vp"
+        ohos:width="300vp"
+        ohos:background_element="#FFDEAD"
+        ohos:top_margin="32vp"
+        ohos:bottom_padding="16vp"
+        ohos:layout_alignment="horizontal_center">
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+            <!-- $media:plant为在media目录引用的图片资源 -->
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+
+            <Image
+                ohos:width="300vp"
+                ohos:height="match_content"
+                ohos:top_margin="16vp"
+                ohos:image_src="$media:planet"/>
+            <!-- 放置任意需要展示的组件 -->
+        </DirectionalLayout>
+    </ScrollView>
+
+    <Button
+        ohos:id="$+id:btn_scroll"
+        ohos:height="60vp"
+        ohos:width="150vp"
+        ohos:text="Scroll 200"
+        ohos:text_color="$color:color_white"
+        ohos:text_size="20fp"
+        ohos:text_alignment="center"
+        ohos:layout_alignment="center"
+        ohos:background_element="$graphic:background_button"/>
+
+</DirectionalLayout>

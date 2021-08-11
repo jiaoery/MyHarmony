@@ -9,6 +9,11 @@
   },
   "deviceConfig": {},
   "module": {
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
     "package": "com.example.myharmony",
     "name": ".MyApplication",
     "mainAbility": "com.example.myharmony.MainAbility",
