@@ -1,6 +1,6 @@
 package com.example.myharmony;
 
-import com.example.myharmony.slice.MainAbilitySlice;
+import com.example.myharmony.ui.slice.MainAbilitySlice;
 import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
 

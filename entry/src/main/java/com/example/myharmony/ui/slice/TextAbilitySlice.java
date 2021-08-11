@@ -1,4 +1,4 @@
-package com.example.myharmony.slice;
+package com.example.myharmony.ui.slice;
 
 import com.example.myharmony.ResourceTable;
 import ohos.aafwk.ability.AbilitySlice;

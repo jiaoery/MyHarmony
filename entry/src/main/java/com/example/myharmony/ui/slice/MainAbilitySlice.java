@@ -1,4 +1,4 @@
-package com.example.myharmony.slice;
+package com.example.myharmony.ui.slice;
 
 import com.example.myharmony.ResourceTable;
 import com.example.myharmony.bean.MainItem;
@@ -6,7 +6,6 @@ import com.example.myharmony.provider.MainProvider;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 import ohos.agp.components.ListContainer;
-import ohos.org.w3c.dom.ls.LSInput;
 
 import java.util.ArrayList;
 import java.util.List;
