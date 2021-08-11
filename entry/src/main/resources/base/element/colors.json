@@ -11,6 +11,14 @@
     {
       "name": "color_white",
       "value": "#ffffff"
+    },
+    {
+      "name": "color_gold",
+      "value": "#FF9912"
+    },
+    {
+      "name": "color_sky_blue",
+      "value": "#00BFFF"
     }
   ]
 }

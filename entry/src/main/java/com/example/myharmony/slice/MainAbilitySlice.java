@@ -38,6 +38,8 @@ public class MainAbilitySlice extends AbilitySlice {
         list.add(new MainItem("Tab 和 TabList",new TabAbilitySlice()));
         list.add(new MainItem("Picker 选择器",new PickerAbilitySlice()));
         list.add(new MainItem("DatePicker 日期选择器",new DatePickerAbilitySlice()));
+        list.add(new MainItem("TimePicker 时间选择器",new TimePickerAbilitySlice()));
+        list.add(new MainItem("Switch 选择器",new SwitchAbilitySlice()));
         return list;
     }
 
