@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <ProgressBar
+        ohos:id="$+id:progressbar1"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:margin="20vp"
+        ohos:max="100"
+        ohos:min="0"
+        ohos:progress="60"
+        ohos:progress_width="10vp"/>
+
+    <ProgressBar
+        ohos:id="$+id:progressbar2"
+        ohos:height="150vp"
+        ohos:width="60vp"
+        ohos:max="100"
+        ohos:min="0"
+        ohos:orientation="vertical"
+        ohos:progress="60"
+        ohos:progress_element="#FF9900"
+        ohos:progress_width="10vp"
+        ohos:top_margin="20vp"/>
+
+    <ProgressBar
+        ohos:id="$+id:progressbar3"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:divider_lines_enabled="true"
+        ohos:divider_lines_number="5"
+        ohos:margin="20vp"
+        ohos:max="100"
+        ohos:min="0"
+        ohos:progress="0"
+        ohos:progress_width="10vp"
+        />
+
+    <ProgressBar
+        ohos:id="$+id:progressbar4"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:divider_lines_enabled="true"
+        ohos:divider_lines_number="5"
+        ohos:margin="20vp"
+        ohos:max="100"
+        ohos:min="0"
+        ohos:progress="0"
+        ohos:progress_width="10vp"
+        />
+
+    <ProgressBar
+        ohos:id="$+id:progressbar5"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:margin="20vp"
+        ohos:max="100"
+        ohos:min="0"
+        ohos:progress="60"
+        ohos:progress_width="10vp"
+        ohos:progress_hint_text="20%"
+        ohos:progress_element="#FF9900"
+        ohos:progress_hint_text_color="#FFCC99"/>
+
+
+
+</DirectionalLayout>

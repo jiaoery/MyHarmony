@@ -40,6 +40,11 @@ public class MainAbilitySlice extends AbilitySlice {
         list.add(new MainItem("DatePicker 日期选择器",new DatePickerAbilitySlice()));
         list.add(new MainItem("TimePicker 时间选择器",new TimePickerAbilitySlice()));
         list.add(new MainItem("Switch 选择器",new SwitchAbilitySlice()));
+        list.add(new MainItem("RadioButton 单选",new RadioButtonAbilitySlice()));
+        list.add(new MainItem("RadioContainer 容器",new RadioContainerAbilitySlice()));
+        list.add(new MainItem("CheckBox 多选",new CheckBokAbilitySlice()));
+        list.add(new MainItem("Progressbar 进度条",new ProgressBarAbilitySlice()));
+        list.add(new MainItem("RoundProgressBar 环形进度条",new RoundProgressBarAbilitySlice()));
         return list;
     }
 
