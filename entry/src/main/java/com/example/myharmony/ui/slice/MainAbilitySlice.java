@@ -49,6 +49,12 @@ public class MainAbilitySlice extends AbilitySlice {
         list.add(new MainItem("ListContainer 列表",new ListContainerAbilitySlice()));
         list.add(new MainItem("PageSlider 界面切换",new PageSliderAbilitySlice()));
         list.add(new MainItem("WebView 网页",new WebViewAbilitySlice()));
+        list.add(new MainItem("DirectLayout 方向布局",new DirectLayoutAbilitySlice()));
+        list.add(new MainItem("DependentLayout 相对布局",new DependentLayoutAbilitySlice()));
+        list.add(new MainItem("StackLayout 层布局",new StackLayoutAbilitySlice()));
+        list.add(new MainItem("TableLayout 表格布局",new TableLyoutAbilitySlice()));
+        list.add(new MainItem("PositionLayout 绝对布局",new PositionLayoutAbilitySlice()));
+        list.add(new MainItem("AdaptiveBoxLayout 盒子布局",new AdaptiveBoxLayoutAbilitySlice()));
         return list;
     }
 

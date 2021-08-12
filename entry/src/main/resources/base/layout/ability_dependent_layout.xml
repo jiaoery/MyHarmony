@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:background_element="$graphic:color_light_gray_element">
+        <Text
+            ohos:id="$+id:text1"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:text="text1"
+            ohos:text_size="20fp"
+            ohos:background_element="$graphic:color_cyan_element"/>
+        <Text
+            ohos:id="$+id:text2"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:text="end_of text1"
+            ohos:text_size="20fp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:end_of="$id:text1"/>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:background_element="$graphic:color_light_gray_element">
+        <Text
+            ohos:id="$+id:text3"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:right_margin="40vp"
+            ohos:text="text1"
+            ohos:text_size="20fp"
+            ohos:background_element="$graphic:color_cyan_element"/>
+        <Text
+            ohos:id="$+id:text4"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="15vp"
+            ohos:top_margin="15vp"
+            ohos:right_margin="40vp"
+            ohos:bottom_margin="15vp"
+            ohos:text="below text1"
+            ohos:text_size="20fp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:below="$id:text3"/>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:width="300vp"
+        ohos:height="100vp"
+        ohos:background_element="$graphic:color_background_gray_element">
+        <Text
+            ohos:id="$+id:text6"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="align_parent_right"
+            ohos:text_size="12fp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"/>
+        <Text
+            ohos:id="$+id:text7"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="align_parent_bottom"
+            ohos:text_size="12fp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:align_parent_bottom="true"
+            ohos:center_in_parent="true"/>
+        <Text
+            ohos:id="$+id:text8"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="center_in_parent"
+            ohos:text_size="12fp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:center_in_parent="true"/>
+        <Text
+            ohos:id="$+id:text9"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="align_parent_left_top"
+            ohos:text_size="12fp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:align_parent_left="true"
+            ohos:align_parent_top="true"/>
+    </DependentLayout>
+
+</DirectionalLayout>
